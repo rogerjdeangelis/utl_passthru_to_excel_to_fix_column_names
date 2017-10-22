@@ -54,7 +54,7 @@ Using explict passthru and MS SQL to rename problematic excel column names at th
     ```    ```
     ```     WORK.WANT total obs=19  ```
     ```    ```
-    ```      Obs    NAME         SEX        AGE       HEIGHT    WEIGHT  ```
+    ```      Obs    HBA1C        SEX        AGE       HEIGHT    WEIGHT  ```
     ```    ```
     ```        1    Alfred       M           14        69.0      112.5  ```
     ```        2    Alice        F           13        56.5       84.0  ```
