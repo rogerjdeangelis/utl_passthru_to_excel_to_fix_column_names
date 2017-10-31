@@ -3,7 +3,7 @@ Using explict passthru and MS SQL to rename problematic excel column names at th
 
     ```  SAS Forum: Using SAS passthtru to excel to rename problematic column names for import  ```
     ```    ```
-    ```  Post title SAS 9.2 and SAS 9.4 create different variable names when import excel files.  ```
+    ```  SAS 9.2 and SAS 9.4 create different variable names when import excel files.  ```
     ```    ```
     ```  My suggestion is to use SAS passthru to excel to rename the problematic names  ```
     ```    ```
