@@ -83,7 +83,7 @@ Using explict passthru and MS SQL to rename problematic excel column names at th
     ```  libname xel clear;  ```
     ```  options validvarname=upcase;  ```
     ```    ```
-    ```       age='-Glucose (mg/dl)'n  ```
+    ```    ```
     ```  *          _       _   _  ```
     ```   ___  ___ | |_   _| |_(_) ___  _ __  ```
     ```  / __|/ _ \| | | | | __| |/ _ \| '_ \  ```
@@ -95,7 +95,7 @@ Using explict passthru and MS SQL to rename problematic excel column names at th
     ```  proc datasets lib=work kill;  ```
     ```  run;quit;  ```
     ```    ```
-    ```  %symdel rens / nowarn;  ```
+    ```    ```
     ```    ```
     ```  proc sql dquote=ansi;  ```
     ```   connect to excel (Path="d:/xls/hba1c.xlsx" mixed=yes);  ```
@@ -117,7 +117,7 @@ Using explict passthru and MS SQL to rename problematic excel column names at th
     ```    ```
     ```    ```
     ```  /*  ```
-    ```  1568  %symdel rens / nowarn;  ```
+    ```   ```
     ```  1569  proc sql dquote=ansi;  ```
     ```  1570   connect to excel (Path="d:/xls/hba1c.xlsx" mixed=yes);  ```
     ```  NOTE: Data source is connected in READ ONLY mode.  ```
